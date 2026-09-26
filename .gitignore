@@ -1,0 +1,19 @@
+# 忽略所有生成的音频和图片
+/outwav/
+/outpng/
+
+# 忽略数据集文件夹（让用户自己下载放到 dataset）
+/dataset/
+
+# Python 运行时与缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE 与环境配置
+.vscode/
+.idea/
+.venv/
+env/
+venv/
